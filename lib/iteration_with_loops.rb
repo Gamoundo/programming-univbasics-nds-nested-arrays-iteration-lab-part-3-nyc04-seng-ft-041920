@@ -9,7 +9,7 @@ def join_nested_strings(src)
   str = []
   x = 0 
     while x < src[i].length
-    if src[i][x].is_a? (String)
+    if src[i][x].is_a?(String)
       str << src[i][x]
       x += 1 
       
