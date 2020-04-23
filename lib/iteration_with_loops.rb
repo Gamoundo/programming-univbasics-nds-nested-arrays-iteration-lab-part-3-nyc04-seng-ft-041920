@@ -14,9 +14,9 @@ def join_nested_strings(src)
       x += 1 
       
     end
-   str
+   i += 1 
   end
- 
+ str
 end
 
 end
