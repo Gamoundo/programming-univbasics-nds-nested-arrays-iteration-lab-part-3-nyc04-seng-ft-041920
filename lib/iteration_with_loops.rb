@@ -17,5 +17,5 @@ def join_nested_strings(src)
   end
  i += 1 
 end
-str
+str.join(" ")
 end
