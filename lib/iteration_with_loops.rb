@@ -5,8 +5,9 @@ def join_nested_strings(src)
   # Combine all Strings present in the AoA into a single value and return it
   
   i = 0 
-  while i < src.length
   str = []
+  while i < src.length
+  
   x = 0 
     while x < src[i].length
     if src[i][x].is_a?(String)
