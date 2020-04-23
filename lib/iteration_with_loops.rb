@@ -16,7 +16,7 @@ def join_nested_strings(src)
     end
    str
   end
-i += 1  
+ 
 end
 
 end
