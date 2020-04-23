@@ -12,12 +12,10 @@ def join_nested_strings(src)
     while x < src[i].length
     if src[i][x].is_a?(String)
       str << src[i][x]
-      x += 1 
-      
-    end
-   i += 1 
+       end
+   x += 1 
   end
- 
+ i += 1 
 end
 str
 end
