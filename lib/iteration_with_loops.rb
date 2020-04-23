@@ -1,4 +1,4 @@
-require 'pry'
+
 
 def join_nested_strings(src)
   # src will be an Array of Arrays of Strings and Integers
@@ -12,7 +12,7 @@ def join_nested_strings(src)
     if src[i][x].is_a? (String)
       str << src[i][x]
       x += 1 
-      binding.pry
+      
     end
    str
   end
