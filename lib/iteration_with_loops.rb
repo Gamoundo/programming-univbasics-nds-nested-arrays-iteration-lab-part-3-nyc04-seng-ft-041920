@@ -5,17 +5,17 @@ def join_nested_strings(src)
   # Combine all Strings present in the AoA into a single value and return it
   
   i = 0 
-  str = []
+  str = ""
   while i < src.length
   
   x = 0 
     while x < src[i].length
     if src[i][x].is_a?(String)
-      str << src[i][x]
+      str += src[i][x]
        end
    x += 1 
   end
  i += 1 
 end
-str.join(" ")
+str
 end
